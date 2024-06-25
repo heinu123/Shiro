@@ -141,7 +141,13 @@ const PoweredBy: Component = ({ className }) => {
           </MLink>
         )}
       </FloatPopover>
-      .
+      .      <StyledLink href="https://beian.miit.gov.cn" target="_blank">
+         苏ICP备2023051101号-3
+      </StyledLink>
+      <Divider />
+      <StyledLink href="https://icp.gov.moe/?keyword=20230371" target="_blank">
+        萌ICP备20230371号
+      </StyledLink>
     </span>
   )
 }
